@@ -1,0 +1,15 @@
+# Find the median value in list
+
+
+
+def median(list):
+    mid = 0
+    L = sorted(list)
+    x = len(L)
+    if x %2 == 0:
+        mid = mid + (L[x//2] + L[x//2-1]) * 0.5
+    elif x %2 == 1:
+        mid = mid + L[x//2]
+    return mid
+
+median([1,3,6,7,12,7])
