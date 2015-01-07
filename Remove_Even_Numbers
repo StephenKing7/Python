@@ -1,0 +1,15 @@
+#Remove Even Numbers From List
+
+def remove_even(list):
+    L = list[:]  #makes copy of list
+    for item in L:
+        if item >= 2 and item %2 == 0:
+            L.remove(item)
+        elif item == 0:
+            L.remove(item)
+        for item in L:
+            if item >=2 and item %2 == 0:
+                L.remove(item)
+            elif item == 0:
+                L.remove(item)
+    return(L)
