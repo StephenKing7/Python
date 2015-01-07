@@ -1,0 +1,11 @@
+def count(sequence, item):
+    number_of_items = 0
+    for items in sequence:
+        if item == items:
+            number_of_items = number_of_items + 1
+    return(number_of_items)
+
+
+
+        
+        
