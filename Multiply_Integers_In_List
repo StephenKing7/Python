@@ -1,0 +1,8 @@
+#Multiply All Integers In List
+
+def product(list):
+    mult = 1
+    L = list[:]
+    for items in L:
+        mult = mult * items
+    return mult
