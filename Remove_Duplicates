@@ -1,0 +1,10 @@
+#Remove Duplicates in List
+
+def remove_duplicates(list):
+    L = []
+    for item in list:
+        if item not in L:
+            L.append(item)
+        else:
+            pass
+    return(L)
