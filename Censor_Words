@@ -1,0 +1,6 @@
+def censor(text,word):
+    text = ''
+    for word in text:
+        text = text + text.replace(word, '*' * len(word))
+    return(text)
+        
